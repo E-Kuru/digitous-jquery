@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+header form{
+    width: 50%;
+}
+header h1{
+margin-left: 28px;
+}
+
+#characters{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 380px;
+    width: 33%;
+    margin: 0 12px 12px 0px ;
+    box-shadow: black 2px 2px 7px;
+}
+
+.card img{
+    height: 60%;
+}
